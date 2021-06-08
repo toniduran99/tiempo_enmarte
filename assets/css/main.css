@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'Eina-bold';
+    src: url("/assets/fonts/Eina01-Bold.ttf");
+    src: url("/assets/fonts/Eina01-Bold.ttf") format("embedded-opentype"), url("/assets/fonts/Eina01-Bold.ttf") format("woff"), url("/assets/fonts/Eina01-Bold.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+    }
+    @font-face {
+        font-family: 'FontAwesome';
+        src: url("../fonts/font-awesome/fontawesome-webfont.eot?v=4.7.0");
+        src: url("../fonts/font-awesome/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("../fonts/font-awesome/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("../fonts/font-awesome/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("../fonts/font-awesome/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("../fonts/font-awesome/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
+        font-weight: normal;
+        font-style: normal;
+      }
+
+
+    html,
+    body {
+        background-image: "/img/";
+    font-size: 1.2vw;
+    font-family: "Helvetica Neue", Helvetica, "Eina-bold", Arial, sans-serif;
+    line-height: 1.5rem;
+    color: rgb(255, 255, 255);
+    min-width: 300px;
+    }
+
+    .ubicacion{
+        font-weight: lighter;
+    }
+
+    #main{
+        margin: 10vw;
+        font-size: 3rem;
+    }
+    #main_info{
+        margin: 10vw;
+        
+    }
+
+    #main_data{
+        margin: 10vw;
+        
+    }
+
+
+    .dato{
+        font-size: 1rem;
+        font-weight: 100;
+    }
+
+    #temperatura_actual{
+        font-size: 6rem;
+        font-weight: 500;
+        padding-left: 4rem;
+    }
+
+    .temper{
+        font-weight: 500;
+    }
+
+    .pregunta{
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    .respuesta{
+        font-size: 1rem;
+        font-weight: 100;
+    }
+
+
+    body {
+        margin: 0;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 1.6;
+        background-image: url("../../img/fondo.jpeg");
+        background-size: 100%;
+        color: var(--clr-light);
+        min-height: 100vh;
+      }
+
+    .main {
+        display:block;
+      }
+
+    .principal {
+        display:block;
+        text-align: center;
+    }
+
+    .temp {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    .masinfo {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    .secundario_2 {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        position: relative;
+        top: 50vh;
+        
+    }
+    .secundario {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+      
+
+    .buttons {
+        
+        display: flex;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        padding-top: 20px;
+      }
+
+
+      .btn-secondary {
+        color: #fff;
+        background-color: #6c757d;
+        border-color: #6c757d;
+    }
+
+
+    .superior{
+        font-size: 2vw;
+        display: flex;
+        flex-direction: row;
+        margin: 1vw;
+        
+    }
+    .superior div{
+        padding-right: 5vw;
+        margin-left: 5vw;
+        border-right: 1px solid rgb(255, 255, 255);
+    }
+
+
+    .tabla_datos{
+        padding-top: 10vh;
+    }
+
+
+    .superior_data{
+        display: flex;
+        flex-direction: row;
+        font-size: 3vw;
+        font-weight: 500;
+      
+    }
+
+    .superior_data div{
+      
+        padding-left: 5vw;
+    }
+
+
+
+    .inf_data{
+        display: flex;
+        flex-direction: row;
+        font-size: 3vw;
+        font-weight: 200;
+      
+    }
+
+    .inf_data div{
+      
+        padding-left: 5vw;
+    }
+
+    .boton{
+        background-color: rgb(0, 0, 0);
+    }
